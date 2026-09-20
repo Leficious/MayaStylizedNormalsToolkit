@@ -65,10 +65,6 @@ other assets that benefit from deliberately controlled shading.
 Repeating installation updates the local installed copy. Importing the Python
 package does not automatically create UI or modify the scene.
 
-The installer filename includes its version because Maya may cache previously
-dropped Python files by filename. A version-specific name ensures Maya loads the
-current installer rather than silently reusing an older `Install.py` module.
-
 If Maya does not accept viewport drops, open a Python tab in the Script Editor
 and run the following with the installer path replaced by its extracted location:
 
